@@ -1,5 +1,17 @@
-#test {
-	color: aqua;
-	font-size: 50px;
-	font-family: arial;
+#logo {
+	width:10vw;
+	position: absolute;
+	 box-shadow: 3px 6px #000000; 
+	   -moz-box-shadow:    3px 3px 5px 6px #373d3a;
+  -webkit-box-shadow: 3px 3px 5px 6px #373d3a;
+  box-shadow:         3px 3px 5px 6px #373d3a;
+
+
+}
+body {
+  background-image: url("../img/achtergrond.jpg");
+  background-repeat: repeat;
+
+
+
 }
