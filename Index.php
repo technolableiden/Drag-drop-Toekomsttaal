@@ -17,9 +17,9 @@
 <body>
 	<section id="flex-container">
     <!--boek1-->
-		<img  class="flex-item" src="img/afbeelding1.jpg" alt="muis boek 1" href="#" />
+		<a href="boek1/index.php"><img  class="flex-item" src="img/afbeelding1.jpg" alt="muis boek 1"/></a>
 	<!--boek2-->
-		<img class="flex-item" src="img/afbeelding15.jpg" alt="muis boek 2" href="#" />
+		<a href="boek2/index.php"><img class="flex-item" src="img/afbeelding15.jpg" alt="muis boek 2"/></a>
 
 	</section>
 </body>
