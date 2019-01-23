@@ -23,37 +23,106 @@ padding-left: calc(50% - 680px);
 	padding-left: 100px;
 
 }
+.bloks {
+
+}
 #blokken {
 	display: flex;
 flex-direction: row;
-width: 10vw;
-height: 10vw;
-margin-left: 10vw;
+margin-top: 17vh;
+margin-left: 20vw;
 position: absolute;
 
 }
 
 #blok1 {
+	width: 10vw;
+height: 20vh;
 
 	border: solid;
-	background-color: black;
 
 }
 #blok2 {
-
+margin-left: 8vw;
+width: 10vw;
+height: 20vh;
 	border: solid;
-	background-color: black;
 	
 }
 #blok3 {
-
+	width: 10vw;
+height: 20vh;
+margin-left: 8vw;
 	border: solid;
-	background-color: black;
+
 		
 }
 #blok4 {
+	width: 10vw;
+height: 20vh;
+margin-left: 8vw;
+	border: solid;
+	
+	
+}
+
+
+
+
+
+/*blokken '2'*/
+.blok2 {
+
+}
+#blokken2 {
+	display: flex;
+flex-direction: row;
+
+margin-top: 60vh	;
+
+margin-left: 20vw;
+position: absolute;
+
+}
+
+#blok12 {
+	width: auto;
+height: auto;
 
 	border: solid;
-	background-color: black;
 	
+
+}
+#blok22 {
+margin-left: 8vw;
+width: auto;
+height: auto;
+	border: solid;
+	
+	
+}
+#blok32 {
+	width: auto;
+height: auto;
+margin-left: 8vw;
+	border: solid;
+	
+		
+}
+#blok42 {
+	width: auto;
+height: auto;
+margin-left: 8vw;
+	border: solid;
+	
+	
+}
+.fotos {
+	width: 10vw;
+	height: 20vh;
+}
+#button-controlleer1 {
+	position: absolute;
+	margin-top: 90vh;
+	margin-left: 50vw;
 }

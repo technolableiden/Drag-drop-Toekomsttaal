@@ -9,6 +9,23 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 	<link href="../css/boek1.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
 </head>
 	<header>
 		<a href="boek2/index.php"><img src="../img/technologo.jpeg" id="logo"/></a>
@@ -16,12 +33,21 @@
 <html>
 <body>
 <p>boek1</p>
+<!--rij1-->
 <section id="blokken">
-	<div class="bloks" id="blok1"></div>
-	<div class="bloks" id="blok2"></div>
-	<div class="bloks" id="blok3"></div>
-	<div class="bloks" id="blok4"></div>
+	<div class="bloks" ondrop="drop(event)" ondragover="allowDrop(event)" id="blok1"></div>
+	<div class="bloks" ondrop="drop(event)" ondragover="allowDrop(event)" id="blok2"></div>
+	<div class="bloks" ondrop="drop(event)" ondragover="allowDrop(event)" id="blok3"></div>
+	<div class="bloks" ondrop="drop(event)" ondragover="allowDrop(event)" id="blok4"></div>
 </section>
+<!--rij 2-->
+<section id="blokken2">
+	<div class="bloks2" id="blok12"><img draggable="true" class="fotos" src="../img/Afbeelding11.png"/></div>
+	<div class="bloks2" id="blok22"><img draggable="true" class="fotos" src="../img/Afbeelding12.png"/></div>
+	<div class="bloks2" id="blok32"><img draggable="true" class="fotos" src="../img/Afbeelding13.png"/></div>
+	<div class="bloks2" id="blok42"><img draggable="true" class="fotos"  src="../img/Afbeelding14.png"/></div>
+</section>
+<button id="button-controlleer1" href="#">Controlleer</button>
 </body>
 <footer>
 </footer>
