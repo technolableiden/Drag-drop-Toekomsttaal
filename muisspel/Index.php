@@ -37,7 +37,7 @@ function drop(ev) {
 <section id="blokken">
 
 	<img id="muisfoto" src="../img/1.png"/>
-	<div class="bloks" ondrop="drop(event)" ondragover="allowDrop(event)" id="blok1">
+	<div class="bloks" id="blok1">
 
 		<div id="leeg-blokjes">
 		<div class="leeg-blokjes" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
