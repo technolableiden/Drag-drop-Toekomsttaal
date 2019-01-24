@@ -1,0 +1,170 @@
+#logo {
+	width:10vw;
+	position: absolute;
+	 box-shadow: 3px 6px #000000; 
+	   -moz-box-shadow:    3px 3px 5px 6px #373d3a;
+  -webkit-box-shadow: 3px 3px 5px 6px #373d3a;
+  box-shadow:         3px 3px 5px 6px #373d3a;
+}
+body {
+  background-image: url("../img/achtergrond.jpg");
+  background-repeat: repeat;
+}
+#flex-container {
+display: flex;
+flex-direction: row;
+padding-top: 175px;
+padding-left: calc(50% - 680px);
+}
+.flex-item {
+	width: 25vw;
+	max-height: 500px;
+	min-width: 500px;
+	padding-left: 100px;
+
+}
+.bloks {
+
+}
+#blokken {
+	display: flex;
+flex-direction: row;
+margin-top: 17vh;
+margin-left: 20vw;
+position: absolute;
+
+}
+
+#blok1 {
+	width: 10vw;
+height: 20vh;
+
+	border: solid;
+
+}
+#blok2 {
+margin-left: 8vw;
+width: 10vw;
+height: 20vh;
+	border: solid;
+	
+}
+#blok3 {
+	width: 10vw;
+height: 20vh;
+margin-left: 8vw;
+	border: solid;
+
+		
+}
+#blok4 {
+	width: 10vw;
+height: 20vh;
+margin-left: 8vw;
+	border: solid;
+	
+	
+}
+
+
+
+
+
+/*blokken '2'*/
+.blok2 {
+
+}
+#blokken2 {
+	display: flex;
+flex-direction: row;
+
+margin-top: 60vh	;
+
+margin-left: 20vw;
+position: absolute;
+
+}
+
+#blok12 {
+	width: auto;
+height: auto;
+
+	border: solid;
+	
+
+}
+#blok22 {
+margin-left: 8vw;
+width: auto;
+height: auto;
+	border: solid;
+	
+	
+}
+#blok32 {
+	width: auto;
+height: auto;
+margin-left: 8vw;
+	border: solid;
+	
+		
+}
+#blok42 {
+	width: auto;
+height: auto;
+margin-left: 8vw;
+	border: solid;
+	
+	
+}
+.fotos {
+	width: 10vw;
+	height: 20vh;
+}
+#button-controlleer1 {
+	position: absolute;
+	margin-top: 90vh;
+	margin-left: 50vw;
+}
+
+#blok1deel2 {
+	margin-left: 1.2vw;
+}
+.blokdelen {
+
+	width: 6vw;
+	margin-top: 25vh;
+	height: 10vh;
+	background-color: black;
+}
+#blokjesinblok {
+		display: flex;
+flex-direction: row;
+margin-left: -1.8vw;
+margin-top: -20vh;
+width: 5vw;
+justify-content: space-between;
+}
+#muisfoto {
+	width: 10vw;
+	height:20vh;
+	position: absolute;
+}
+#leeg-blokjes {
+		display: flex;
+flex-direction: row;
+margin-left: -1.8vw;
+margin-top: 2vh;
+width: 5vw;
+justify-content: space-between;
+
+}
+.leeg-blokjes {
+border: solid;
+	min-width: 6vw;
+	height: 10vh;
+	margin-top: 20vh;
+}
+#leegblok2 {
+	margin-left: 2vw;
+}
