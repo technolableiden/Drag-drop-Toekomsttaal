@@ -53,8 +53,8 @@
 </article>
 <br>
 <article id="flex-container12">
-<img id="drag1" src="../img/2.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
-<img id="drag2" src="../img/3.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag1" src="../img/3.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag2" src="../img/2.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
 </article>
 </section>
 
@@ -84,8 +84,8 @@
 </article>
 <br>
 <article id="flex-container12">
-<img id="drag4" src="../img/7.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
-<img id="drag5" src="../img/8.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag4" src="../img/8.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag5" src="../img/7.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
 </article>
 </section>
 <!--fotos4-->
@@ -99,9 +99,9 @@
 </article>
 <br>
 <article id="flex-container12">
-<img id="drag6" src="../img/10.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
-<img id="drag7" src="../img/11.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
-<img id="drag8" src="../img/12.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag6" src="../img/11.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag7" src="../img/12.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
+<img id="drag8" src="../img/10.png" draggable="true" ondragstart="drag(event)" width="250" height="230">
 </article>
 </section>
 
