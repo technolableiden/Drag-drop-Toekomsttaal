@@ -198,6 +198,7 @@ border: solid;
 	margin-left: 2vw;
 	margin-top: 4vh;
 	border: solid;
+	background-color:rgba(0, 0, 0, 0.5);
 		
 }
 #border2 {
@@ -325,4 +326,6 @@ margin-left: 2040px;
 margin-left: 2345px;
 	
 }
-
+.vakjes {
+	background-color: white;
+}

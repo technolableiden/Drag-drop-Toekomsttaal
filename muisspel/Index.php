@@ -41,28 +41,15 @@
 	<div class="bloks" ondrop="drop(event)" ondragover="allowDrop(event)" id="blok4"></div>
 </section>
 -->
-<script>
-function allowDrop(ev) {
-  ev.preventDefault();
-}
 
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
 </script>
 <!--fotos1-->
 <div id="flex-container10">
 <section id="border1"> 	
 <img id="muisimg1" src="../img/1.png"/>
 <article id="flex-container11">
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 </article>
 <br>
 <article id="flex-container12">
@@ -79,7 +66,7 @@ function drop(ev) {
 
 <article id="flex-container11">
 
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
 </article>
 <br>
@@ -92,8 +79,8 @@ function drop(ev) {
 <section id="border1">
 <img id="muisimg3" src="../img/6.png"/>
 <article id="flex-container11">
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 </article>
 <br>
 <article id="flex-container12">
@@ -106,9 +93,9 @@ function drop(ev) {
 <section id="border1">
 <img id="muisimg4" src="../img/9.png"/>
 <article id="flex-container11">
-<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div class="vakjes" id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 </article>
 <br>
 <article id="flex-container12">
